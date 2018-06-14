@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
+body {
+	background-color: #F2F2F2;
+	color: #2C345E;
+	font-family: "Roboto", sans-serif;
+	margin: 0 auto; 
+	text-transform: uppercase;
+}
+
+div {
+	display: flex;
+	justify-content: center;
+	margin: 20px;
+}
+
+button {
+	text-transform: uppercase;
+	background-color: #FF729D;
+	padding: 10px 0;
+	margin: 30px 5px;
+	font-size: 20px;
+	cursor: pointer;
+	border-radius: 5px;
+	color: #FFF;
+	width: 100px;
+	transition: .2s; 
+	border: 1px #FF729D solid;
+}
+
+button:hover {
+	background-color: #fff;
+	color: #FF729D; 
+}
