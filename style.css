@@ -2,27 +2,38 @@
 body {
 	background-color: #F2F2F2;
 	color: #2C345E;
-	font-family: "Roboto", sans-serif;
+	font-family: "Open Sans", sans-serif;
 	margin: 0 auto; 
 	text-transform: uppercase;
+}
+
+.counter {
+	margin: 20px;
+	line-height: 50px
+}
+
+.divCounter {
+	margin: 50px;
 }
 
 div {
 	display: flex;
 	justify-content: center;
-	margin: 20px;
+	flex-wrap: wrap;
+	margin: 30px;
 }
 
 button {
 	text-transform: uppercase;
 	background-color: #FF729D;
-	padding: 10px 0;
+	padding: 0;
 	margin: 30px 5px;
 	font-size: 20px;
 	cursor: pointer;
 	border-radius: 5px;
 	color: #FFF;
-	width: 100px;
+	width: 50px;
+	height: 30px;
 	transition: .2s; 
 	border: 1px #FF729D solid;
 }
